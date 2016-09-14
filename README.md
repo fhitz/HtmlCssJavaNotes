@@ -6,4 +6,5 @@
 [2.Structuring](2.Structuring)
 
 [3.CreatingLinks](3.CreatingLinks)
+
 [3.1.LinkingToPageWithinYourSite](https://github.com/fhitz/HtmlLessons/tree/master/3.CreatingLinks/LinkingToPageWithinYourSite)
