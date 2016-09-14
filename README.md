@@ -1,4 +1,4 @@
-# **Html-lessons-from-zero**
+# **Html Lessons**
 ## This is an on going lesson so there is more to come :)
 
 [1.BasicSyntax](1.BasicSyntax)
