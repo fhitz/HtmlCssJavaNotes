@@ -1,0 +1,6 @@
+
+lang="en"    <----  "en" stands for english
+
+<p lang="en">HTML uses tags to identify page 
+content. This text, for example, is a
+paragraph</p>

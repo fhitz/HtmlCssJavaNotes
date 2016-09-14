@@ -1,0 +1,5 @@
+<h1> </h1> stands for heading 1
+
+<h1>HTML uses tags to identify page 
+content. This text, for example, is a
+paragraph<h1>

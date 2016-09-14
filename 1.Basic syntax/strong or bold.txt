@@ -1,0 +1,5 @@
+<strong> </strong> is to make the text word strong or bold
+
+<h1>HTML uses tags to identify page 
+content. <em>This text, for example, is a<strong>
+paragraph.</strong></em><h1>

@@ -1,0 +1,6 @@
+<em> </em> to emphasize txt
+and as child of h1 element too
+
+<h1>HTML uses tags to identify page 
+content. <em>This text, for example, is a
+paragraph</em><h1>
