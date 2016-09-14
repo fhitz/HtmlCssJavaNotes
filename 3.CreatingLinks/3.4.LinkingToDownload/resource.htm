@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  	<head>
+  	<meta charset="utf-8">
+  	<title>Creating Links</title>
+  	</head>
+  		<body>
+    		<h1>Linking to resources</h1>
+    		<p>Download our<a href="_assets/syntax.zip" title="HTML syntax reference">HTML syntax reference!</a></p>
+  		</body>
+</html>
+
+<!--		Tips:
+So this is just a document relative link pointing to that reference. If it points to a file type that the browser does not support or understand, this is what happens. You can see that the browser automatically downloaded the resource because it said hey this is a ZIP file. I know what they are but I can't open them within the browser so I'm going to download them for you. Now if we had tried to do an EXE file or some type of a DMG file like an installer then the browser has other security protocols that it's going to go through to make sure that the user meant to download that. But for the most part that's all you really need to do to download an external resource.		  
+
+			Changes:  
+     	  <p>Download our<a href="_assets/syntax.zip" title="HTML syntax reference">HTML syntax reference!</a></p>
+ -->
+
+ <!--	   Tips: 	
+However, in certain cases you might actually want them to download something that the browser can open. For example, the syntax.zip file, if I change that to PDF. So, let's save that, go back in the browser, and now if I click on this. You'll notice that it opened it up directly within the browser because this version of Chrome has a PDF reader built into it. Maybe the browser you're using does, maybe it doesn't. But based on the preferences of this browser, I wasn't prompted to download this, it just went ahead and opened that up. What if you wanted it to force a download, or to make sure that the resource downloaded? Well I can go back into my link. And what I'm going to do is I'm going to go ahead and give this a download attribute. Now there are a couple of different ways that we can write this download attribute.
+
+		    Changes:	    Try to change the what im gonna put in the bottom the one in actual html file.
+ 		  From this:    	href="_assets/syntax.zip"
+ 		    To this:    	href="_assets/syntax.pdf"
+-->
+
+<!--		Tips:
+What if you wanted it to force a download, or to make sure that the resource downloaded? Well I can go back into my link. And what I'm going to do is I'm going to go ahead and give this a download attribute. Now there are a couple of different ways that we can write this download attribute.
+
+            Changes:		I suggest you  try all of the changes.
+	      From this:		<a href="_assets/syntax.pdf" title="HTML syntax reference">HTML syntax reference!</a>
+	        To this:		<a href="_assets/syntax.pdf" title="HTML syntax reference" download>HTML syntax reference!</a>
+-->
+
+<!--		Tips:
+ So in this case I'm going to type in HTML_syntax, and that's going to be in quotation marks. So essentially what's going to happen is, when this syntax is encountered, whatever the name of the file is, in this case syntax.htm, is going to be replaced with this.
+			
+			Changes:		<a href="_assets/syntax.pdf" title="HTML syntax reference" download="HTML_syntax">HTML syntax reference!</a>
+-->
