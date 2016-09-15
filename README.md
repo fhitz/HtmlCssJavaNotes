@@ -6,5 +6,3 @@
 [2.Structuring](2.Structuring)
 
 [3.CreatingLinks](3.CreatingLinks)
-
-[3.1.LinkingToPageWithinYourSite](3.1.LinkingToPageWithinYourSite)
