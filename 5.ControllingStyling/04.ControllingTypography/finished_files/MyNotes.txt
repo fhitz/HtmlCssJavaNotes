@@ -1,43 +1,4 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Controlling typography</title>
-<style>
-body {								/*Check all the instructions on the very bottom of this page*/
-	width: 70%;	
-	margin: 0 auto;
-	font: 100% Arial, Helvetica, sans-serif;
-}
-h1 {
-	font-family: Georgia, "Times New Roman", Times, serif;  
-	font-size: 2em;
-	font-weight: normal;
-	font-style: italic;
-	margin: 1em 0 .4em;
-}
-p {
-	font-family: Arial,Helvetica,sans-serif;
-	font-size: 1em;
-	line-height: 1.6;rft
-	text-align: justify;
-	width: 60%;
-	margin: 0;
-	margin-bottom: 1em;
-}
-</style>
-</head>
-<body>
-<h1>HTML and CSS</h1>
-<p>One way to visualize how HTML and CSS work together is to think about a new building under construction. As the building goes up, the structure of the building is built first. At just the structural level, all you see is the frame of the new building, and other than the basic shape, you don&rsquo;t really know how the building is going to look. Once the frame is complete, the &ldquo;skin&rdquo; of the building is added. This could be brick, wood, glass, stucco, or any number of outer materials that determine what the final look of the building will be.</p>
-<p>HTML and CSS work much the same way. HTML gives us the structure, or &ldquo;frame&rdquo;, of our pages. We can use CSS to then control how this structure looks, where elements are positioned, and add additional decorative styling. What&rsquo;s more, much the same way a building can change dramatically by adding a new façade; web pages can change their visual design by simply changing the page&rsquo;s CSS.</p>
-<p>This separation of structure and presentation creates a very flexible and efficient workflow where the structure of pages is independent of how the pages are presented. This allows you to update styling without changing page content, and provide different visual designs based on the context of where the page is being displayed.</p>
-</body>
-</html>
-
-
-
-<!-- Instructions or explanations:
+Instructions or explanations:
 
 body {		
 	width: 70%;	
@@ -104,5 +65,3 @@ What if?:
 	Whenever there's a conflict in your CSS, the closest rule wins. Meaning, the more specific rule wins. In this case, h1 is more specific, a single element. So it overrides its parent, which is body. So if I save this, go back out to my CSS. It doesn't look any different, it's exactly the same, but now we have slightly more efficient styles. So I know we did a lot here, but really those are just some of the basic text formatting options that we have when we're using styles. So at this point, if you're starting to feel a little overwhelmed in terms of CSS, please don't.
 
 	Remember, this is not a CSS course. The main purpose of these exercises is to show you a little bit of what CSS is capable of and to expose you to the syntax, so that you're going to have a head start when you begin learning CSS on your own.
-
--->
