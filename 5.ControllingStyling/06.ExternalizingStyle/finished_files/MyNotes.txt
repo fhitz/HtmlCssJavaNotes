@@ -1,0 +1,42 @@
+Instructions or explanation:
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>External styles</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+	<link rel="stylesheet" href="styles.css">  
+		So all you need is an opening link tag. And inside the link tag, I need to pass along a couple of attributes. The first attribute I'm going to pass along is the rel attribute, or relation. I need to tell the user agent. What relationship the resource we're bringing in has to this page. And in this case, I'm going to say style sheet. This is a very important step because it lets the user agent know what the relationship between two documents are and how to treat them. So without this it could actually cause some issues. So I'm going to say link relationship equals style sheet.
+
+		Then after that I need to point to the style sheet itself. So what I'm going to do is an href attribute. So much like the anchor attribute, you're going to use an href attribute. But this time instead of pointing to a page that you want to navigate to, you're pointing to a resource that you want to use. So href, and I'm just going to point that to the styles.css. Now you could resolve this in the same way. It's actually common for most sites to have CSS in their own folder. They have a top level folder that they'll probably name something like _css and then place the styles there. Since the styles.css that we created is in the same folder as this external.htm.
+
+		I don't need to do any type of directory navigation, I just state the file. But, you do need to resolve this path. So if where you're going is different from where you're at. You'll need to go either up directories, down directories, the same way that you do as you're resolving a link. Last thing I need to do is just close out this tag. That's it. Remember, there's no closing tag. So I just do a right angle bracket, and there is my style sheet link. Now if I save this and go back into my browser. So now I'm getting the styles that I want, and it's coming in from that external resource. So now, if I want to use this throughout my site, it's just a matter of linking to the same style sheet.
+
+go to same folder:   page2.htm
+<head>
+<meta charset="utf-8">
+<title>External styles</title>
+<link rel="stylesheet" href="styles.css">   <-- add this
+</head>
+		
+	<link rel="stylesheet" href="styles.css">	
+		So you know, I'm always for doing things the most efficient way possible. So what I'm going to do is just copy this link tag, and then I'm going to go to page number two and just below the title in that one. I'll paste it in there as well. Since they're in the same folder, the link is resolved exactly the same way. So I'll save this. And now if I preview this in the page, it's getting the styling too. So I can link back and forth between page one and page two, and they're both receiving the styling. What's nice about this is the styling is now site-wide if you will.
+
+same folder styles.css
+
+a {
+	text-decoration: none;
+	color: red;
+}
+a:hover {
+	color: black;
+}
+
+		And if I made an edit to the styles.css,. It would automatically apply to all the pages in my site. So if i go to styles.css I can scroll down, and add a little bit of styling for those links. So after the paragraph, I'm going to do an A selector and inside of that I'm going to do text decoration of none. That will remove the underline from the links. Which is actually not that great of an idea. There's a lot of usability studies out there lately that have said that it's a really good idea to leave the underline on links. But I'm just doing it because, hey, you can. All right. So I'm stripping away the underline underneath the links, and I'm changing their color to red.
+
+		I also want to set a hover style on this, too, so that when people hover over the link, it changes color. So I'm going to do a:hover. So that's all one selector, a:hover. And here, I'm just going to set its color to black. So I'll save that, go back into one of my pages, preview up my browser and now you can see the link styling changes. There's the hover that we just set. That change was applied globally, to both of those pages, It would have been sit wide, if we had dozens of pages. Simply because we're using the one external resource to apply all the styles for our pages.
+
+		So I think it's pretty easy for you to see the benefits of using these external styles. You can now control an unlimited amount of pages through just this single file. So as you start to learn CSS. Pay close attention to how external and embedded styles work together. Avoiding styling conflicts and writing efficient styles are really important aspects of authoring CSS. So as you learn CSS, it's important to understand how all of these styles are going to work together
