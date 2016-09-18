@@ -5,10 +5,10 @@ body {
 	margin: 0 auto;
 	font: 100% Arial, Helvetica, sans-serif;
 }
-	width: 
+	width:  70%;
 		So if I resize the browser, it's always going to stay right at 70%, which is nice. 
 
-	margin: 
+	margin: 0 auto;
 		When we set a margin, we set margins all the way around the sides of an element. Top, right, bottom, and left. So for this margin, we're saying 0 for the first value, which gives us top and bottom, and then auto for left and right. So you just kind of have to know that shorthand syntax. So auto for left and right says hey, the width is 70%, whatever's leftover, put half of that on the left, half of that on the right, then you get a centered element. So that's exactly what's going on there.
 
 
