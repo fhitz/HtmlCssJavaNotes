@@ -1,0 +1,72 @@
+add  this 	<link rel="stylesheet" href="_css/styles.css"> 
+inside of every <head> </head> of all .htm pages or all pages 
+like the one in the bottom sample.
+this is to link or apply your CSS file or styles to the page u want. 
+
+
+Sample:
+<head>
+<link rel="stylesheet" href="_css/styles.css">
+</head>
+
+Sample:
+
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="_css/styles.css">
+<meta charset="utf-8">
+<title>Introduction to HTML</title>
+</head>
+
+
+how to FLOAT your IMAGE to the right or left using class at HTML and CSS see sample below
+
+sample:
+html:
+ <header>
+      <p><img src="_images/tags.png" alt="HTML" width="310" height="375" class="flowRight">
+
+.css:
+      .flowRight {
+	margin-left: 10px;
+	float: right;	
+
+	}
+
+
+<p><img src="_images/200px-W3C_Icon.png" alt="W3C logo" width="200" height="136" class="flowLeft">
+
+.flowLeft {
+	margin-right: 10px;
+	float: left;
+	}
+
+
+BACKROUND COLOR and using CSS: 
+
+background-color: #663399;
+
+html, body {
+	margin: 0;
+	background-color: #663399;					/* 'Beccapurple' */    
+}
+
+FONT EDIT using body CSS:
+
+font: 100% Verdana, Geneva, sans-serif;
+
+sample:
+body {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 2.5% 2.5% 0;
+	background: white;
+	line-height: 1.8;
+	font: 100% Verdana, Geneva, sans-serif;
+}
+
+
+CSS how to comment:  /* */				/*  comment here  */
+	/* 'Beccapurple' */    
